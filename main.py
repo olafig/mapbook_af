@@ -6,6 +6,8 @@ users:list=[
     {'name':'Patryk','posts':9,'city':'Łódź'},
 
 ]
+#TODO please update user list
+
 print(f'Witaj {users[0]['name'] }!!')
 for user in users[1:]:
     print(f'twój znajomy  {user['name']}, z miasta {user['city']} opublikował {user['posts']} postów')
