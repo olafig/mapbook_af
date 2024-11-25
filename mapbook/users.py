@@ -13,6 +13,8 @@ users:list=[
     {'name':'Michal','posts':23,'city':'Opole'},
     {'name':'Patrycja','posts':24,'city':'Krakow'},
     {'name':'Patrycja','posts':29,'city':'Sopot'},
+    {'name':'Kinga','posts':39,'city':'Białystok'},
+
 
 
 ]
