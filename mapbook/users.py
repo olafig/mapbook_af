@@ -4,7 +4,7 @@ users: list = [
     {'name': 'Szymon z wąsem', 'posts': 5, 'city': 'Toruń'},
     {'name': 'Szymon', 'posts': 7, 'city': 'Białogard'},
     {'name': 'Patryk', 'posts': 9, 'city': 'Łódź'},
-    {'name': 'Patrycja', 'posts': 11, 'city': 'Mińsk'},
+    {'name': 'Patrycja', 'posts': 11, 'city': 'Mińsk Mazowiecki'},
     {'name': 'Ola', 'posts': 13, 'city': 'Radom'},
     {'name': 'Julia', 'posts': 15, 'city': 'Zamość'},
     {'name': 'Karolina', 'posts': 17, 'city': 'Mława'},
