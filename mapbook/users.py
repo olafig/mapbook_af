@@ -11,7 +11,7 @@ users: list = [
     {'name': 'Amelia', 'posts': 19, 'city': 'Toruń'},
     {'name': 'Zerom', 'posts': 21, 'city': 'Stalowa Wola'},
     {'name': 'Michal', 'posts': 23, 'city': 'Opole'},
-    {'name': 'Patrycja', 'posts': 24, 'city': 'Krakow'},
+    {'name': 'Patrycja', 'posts': 24, 'city': 'Kraków'},
     {'name': 'Patrycja', 'posts': 29, 'city': 'Sopot'},
     {'name': 'Kinga', 'posts': 39, 'city': 'Białystok'},
 

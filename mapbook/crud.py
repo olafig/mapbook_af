@@ -28,7 +28,7 @@ def update_user(userlist:list)->None:
     user_to_find:str=input('podaj imię użytkownika do aktualizacji:')
     for user in userlist:
         if user['name'] == user_to_find:
-            new_name: str = input('proszę podać imię nowe imię znajomego')
+            new_name: str = input('proszę podać nowe imię znajomego')
             new_post: int = int(input('podaj nową liczbę postów'))
             new_city: str = input('podaj nowe miasto')
             user['name']=new_name
