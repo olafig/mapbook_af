@@ -4,6 +4,15 @@ from map_functions import single_user_map, multi_user_map
 from mapbook.users import users
 from mapbook.crud import hello, read_users, add_user,remove_user, update_user
 
+import psycopg2 as ps
+
+
+
+db_params=ps.connect(user='aaaaaaa', password='aaaaaaa', database='aaaaaaa', host='localhost', port='5434')
+
+
+
+
 def main():
     hello(users[0]['name'])
     while True:
