@@ -6,6 +6,15 @@ from bs4 import BeautifulSoup
 import tkintermapview
 
 
+import psycopg2 as ps
+
+
+
+db_params=ps.connect(user='aaaaaaa', password='aaaaaaa', database='aaaaaaa', host='localhost', port='5434')
+
+
+
+
 def main():
     class User:
         def __init__(self, imie, nazwisko, postow, lokalizacja):
