@@ -93,6 +93,7 @@ def main():
         button_dodaj_obiekt.config(text='Dodaj obiekt', command=add_user)
         show_users()
 
+
     def show_user_details() -> None:
         i = listbox_lista_obiektow.index(ACTIVE)
         label_szczegoly_imie_wartosc.config(text=users[i].imie)
