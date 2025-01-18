@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;0
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7985e28a01cb19491ca1013a210307bc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7985e28a01cb19491ca1013a210307bc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7985e28a01cb19491ca1013a210307bc = L.map(
+                "map_7985e28a01cb19491ca1013a210307bc",
+                {
+                    center: [51.919231, 19.134422],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7f654b5da24b17a68f4bda884d973a04 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_7f654b5da24b17a68f4bda884d973a04.addTo(map_7985e28a01cb19491ca1013a210307bc);
+        
+    
+            var marker_bce9e8453be3e4c57d34babb7914bc21 = L.marker(
+                [52.232222, 21.008333],
+                {}
+            ).addTo(map_7985e28a01cb19491ca1013a210307bc);
+        
+    
+        var popup_2c4670b1ab49eb1c43f03d83fb91cb98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6847edeb2ba79fff00575466ab1c5bf9 = $(`<div id="html_6847edeb2ba79fff00575466ab1c5bf9" style="width: 100.0%; height: 100.0%;">Warszawa,Ola</div>`)[0];
+                popup_2c4670b1ab49eb1c43f03d83fb91cb98.setContent(html_6847edeb2ba79fff00575466ab1c5bf9);
+            
+        
+
+        marker_bce9e8453be3e4c57d34babb7914bc21.bindPopup(popup_2c4670b1ab49eb1c43f03d83fb91cb98)
+        ;
+
+        
+    
+    
+            var marker_0bc972741a16b320156fb866866c4581 = L.marker(
+                [52.408333, 16.934167],
+                {}
+            ).addTo(map_7985e28a01cb19491ca1013a210307bc);
+        
+    
+        var popup_ca9ff922165dc9a0b8db17537ae46fac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_178a55f4400829f686b656cf2b1ac575 = $(`<div id="html_178a55f4400829f686b656cf2b1ac575" style="width: 100.0%; height: 100.0%;">Poznań,Dominik</div>`)[0];
+                popup_ca9ff922165dc9a0b8db17537ae46fac.setContent(html_178a55f4400829f686b656cf2b1ac575);
+            
+        
+
+        marker_0bc972741a16b320156fb866866c4581.bindPopup(popup_ca9ff922165dc9a0b8db17537ae46fac)
+        ;
+
+        
+    
+    
+            var marker_9241b3124ded1fa23825b8628aa5e07e = L.marker(
+                [53.022222, 18.611111],
+                {}
+            ).addTo(map_7985e28a01cb19491ca1013a210307bc);
+        
+    
+        var popup_87f3dd5e2a266e808ad2e30199edb340 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1800f5cc9bf1fe6f5a03e2b3e6baf355 = $(`<div id="html_1800f5cc9bf1fe6f5a03e2b3e6baf355" style="width: 100.0%; height: 100.0%;">Toruń,Szymon z wąsem</div>`)[0];
+                popup_87f3dd5e2a266e808ad2e30199edb340.setContent(html_1800f5cc9bf1fe6f5a03e2b3e6baf355);
+            
+        
+
+        marker_9241b3124ded1fa23825b8628aa5e07e.bindPopup(popup_87f3dd5e2a266e808ad2e30199edb340)
+        ;
+
+        
+    
+    
+            var marker_425ada1b199701aef90dc4db247a08ee = L.marker(
+                [54.003056, 15.992222],
+                {}
+            ).addTo(map_7985e28a01cb19491ca1013a210307bc);
+        
+    
+        var popup_3f0fe185e4ce08da276ff7ae43595528 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe13c3575c2f2e4cdb9e0ae226875bb3 = $(`<div id="html_fe13c3575c2f2e4cdb9e0ae226875bb3" style="width: 100.0%; height: 100.0%;">Białogard,Szymon</div>`)[0];
+                popup_3f0fe185e4ce08da276ff7ae43595528.setContent(html_fe13c3575c2f2e4cdb9e0ae226875bb3);
+            
+        
+
+        marker_425ada1b199701aef90dc4db247a08ee.bindPopup(popup_3f0fe185e4ce08da276ff7ae43595528)
+        ;
+
+        
+    
+    
+            var marker_eb162220bb3d665ed69ac5ab39598c4e = L.marker(
+                [51.776667, 19.454722],
+                {}
+            ).addTo(map_7985e28a01cb19491ca1013a210307bc);
+        
+    
+        var popup_dcf3ec5b37dcadacd42fb2e94e7f6e85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_570b5f7099a22ae18e5e66f3eb173ac4 = $(`<div id="html_570b5f7099a22ae18e5e66f3eb173ac4" style="width: 100.0%; height: 100.0%;">Łódź,Patryk</div>`)[0];
+                popup_dcf3ec5b37dcadacd42fb2e94e7f6e85.setContent(html_570b5f7099a22ae18e5e66f3eb173ac4);
+            
+        
+
+        marker_eb162220bb3d665ed69ac5ab39598c4e.bindPopup(popup_dcf3ec5b37dcadacd42fb2e94e7f6e85)
+        ;
+
+        
+    
+    
+            var marker_ea4ba218151abbba3066cdc9952fd42c = L.marker(
+                [52.180556, 21.558333],
+                {}
+            ).addTo(map_7985e28a01cb19491ca1013a210307bc);
+        
+    
+        var popup_b65f7a3f0963593640b226ff074175f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5bd4fe1e3846938688303089a583cd1 = $(`<div id="html_c5bd4fe1e3846938688303089a583cd1" style="width: 100.0%; height: 100.0%;">Mińsk Mazowiecki,Patrycja</div>`)[0];
+                popup_b65f7a3f0963593640b226ff074175f8.setContent(html_c5bd4fe1e3846938688303089a583cd1);
+            
+        
+
+        marker_ea4ba218151abbba3066cdc9952fd42c.bindPopup(popup_b65f7a3f0963593640b226ff074175f8)
+        ;
+
+        
+    
+    
+            var marker_1ea3d4997530efd4b13da155f63fc9b7 = L.marker(
+                [51.403611, 21.156667],
+                {}
+            ).addTo(map_7985e28a01cb19491ca1013a210307bc);
+        
+    
+        var popup_c99c2d1af8acc06c6d9e37832d056276 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ace4d89abee3d3fda28e1cd729e11e6b = $(`<div id="html_ace4d89abee3d3fda28e1cd729e11e6b" style="width: 100.0%; height: 100.0%;">Radom,Ola</div>`)[0];
+                popup_c99c2d1af8acc06c6d9e37832d056276.setContent(html_ace4d89abee3d3fda28e1cd729e11e6b);
+            
+        
+
+        marker_1ea3d4997530efd4b13da155f63fc9b7.bindPopup(popup_c99c2d1af8acc06c6d9e37832d056276)
+        ;
+
+        
+    
+    
+            var marker_47a2ac548441d4be73d87ae1add945f2 = L.marker(
+                [50.720556, 23.258611],
+                {}
+            ).addTo(map_7985e28a01cb19491ca1013a210307bc);
+        
+    
+        var popup_a46eae9390ef0858b946850c3f527ae1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1b2e088ff6c19c1d88339c6394c41d6 = $(`<div id="html_b1b2e088ff6c19c1d88339c6394c41d6" style="width: 100.0%; height: 100.0%;">Zamość,Julia</div>`)[0];
+                popup_a46eae9390ef0858b946850c3f527ae1.setContent(html_b1b2e088ff6c19c1d88339c6394c41d6);
+            
+        
+
+        marker_47a2ac548441d4be73d87ae1add945f2.bindPopup(popup_a46eae9390ef0858b946850c3f527ae1)
+        ;
+
+        
+    
+    
+            var marker_89603d09859612003e5a637ffc110253 = L.marker(
+                [53.127222, 20.3575],
+                {}
+            ).addTo(map_7985e28a01cb19491ca1013a210307bc);
+        
+    
+        var popup_18337e32f5829bf1247f376b65a531f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3a04d49d71dc8e2e1e6587c1a52b719 = $(`<div id="html_a3a04d49d71dc8e2e1e6587c1a52b719" style="width: 100.0%; height: 100.0%;">Mława,Karolina</div>`)[0];
+                popup_18337e32f5829bf1247f376b65a531f3.setContent(html_a3a04d49d71dc8e2e1e6587c1a52b719);
+            
+        
+
+        marker_89603d09859612003e5a637ffc110253.bindPopup(popup_18337e32f5829bf1247f376b65a531f3)
+        ;
+
+        
+    
+    
+            var marker_29bbb3b926a360f9ffb8023f452edea8 = L.marker(
+                [53.022222, 18.611111],
+                {}
+            ).addTo(map_7985e28a01cb19491ca1013a210307bc);
+        
+    
+        var popup_b15ccb8acece57cae792a5f97f9b0a14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb5f7e17e6f7e2012f4c0a9af5036910 = $(`<div id="html_cb5f7e17e6f7e2012f4c0a9af5036910" style="width: 100.0%; height: 100.0%;">Toruń,Amelia</div>`)[0];
+                popup_b15ccb8acece57cae792a5f97f9b0a14.setContent(html_cb5f7e17e6f7e2012f4c0a9af5036910);
+            
+        
+
+        marker_29bbb3b926a360f9ffb8023f452edea8.bindPopup(popup_b15ccb8acece57cae792a5f97f9b0a14)
+        ;
+
+        
+    
+    
+            var marker_7e02c1b79cea86434c4868422835c838 = L.marker(
+                [50.576111, 22.061111],
+                {}
+            ).addTo(map_7985e28a01cb19491ca1013a210307bc);
+        
+    
+        var popup_993fe14893eada8f6a2564cf89fbda0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57c0263beda311734a6d879e03ba35bc = $(`<div id="html_57c0263beda311734a6d879e03ba35bc" style="width: 100.0%; height: 100.0%;">Stalowa Wola,Zerom</div>`)[0];
+                popup_993fe14893eada8f6a2564cf89fbda0c.setContent(html_57c0263beda311734a6d879e03ba35bc);
+            
+        
+
+        marker_7e02c1b79cea86434c4868422835c838.bindPopup(popup_993fe14893eada8f6a2564cf89fbda0c)
+        ;
+
+        
+    
+    
+            var marker_aaba9cb480187ad16c46f79465f08bb2 = L.marker(
+                [50.664722, 17.926944],
+                {}
+            ).addTo(map_7985e28a01cb19491ca1013a210307bc);
+        
+    
+        var popup_17bad2eb1c3c08c55a214744f62064dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fab134a03564f961ec91b87386a80d2 = $(`<div id="html_2fab134a03564f961ec91b87386a80d2" style="width: 100.0%; height: 100.0%;">Opole,Michal</div>`)[0];
+                popup_17bad2eb1c3c08c55a214744f62064dc.setContent(html_2fab134a03564f961ec91b87386a80d2);
+            
+        
+
+        marker_aaba9cb480187ad16c46f79465f08bb2.bindPopup(popup_17bad2eb1c3c08c55a214744f62064dc)
+        ;
+
+        
+    
+    
+            var marker_20dfe4393454c1916a956adb66c410ba = L.marker(
+                [50.061389, 19.938333],
+                {}
+            ).addTo(map_7985e28a01cb19491ca1013a210307bc);
+        
+    
+        var popup_8ef4a129f3bfa9f4999d70f780607a0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_383c2b9d5e1ed7045c6b11cb557ae9c1 = $(`<div id="html_383c2b9d5e1ed7045c6b11cb557ae9c1" style="width: 100.0%; height: 100.0%;">Kraków,Patrycja</div>`)[0];
+                popup_8ef4a129f3bfa9f4999d70f780607a0a.setContent(html_383c2b9d5e1ed7045c6b11cb557ae9c1);
+            
+        
+
+        marker_20dfe4393454c1916a956adb66c410ba.bindPopup(popup_8ef4a129f3bfa9f4999d70f780607a0a)
+        ;
+
+        
+    
+    
+            var marker_94efc9ae59261d6d00d1259906198b7f = L.marker(
+                [54.441944, 18.559722],
+                {}
+            ).addTo(map_7985e28a01cb19491ca1013a210307bc);
+        
+    
+        var popup_7cb6479a114d42a78ee7ba320dac3600 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ffd77060a262067d1d3509efebc7928 = $(`<div id="html_1ffd77060a262067d1d3509efebc7928" style="width: 100.0%; height: 100.0%;">Sopot,Patrycja</div>`)[0];
+                popup_7cb6479a114d42a78ee7ba320dac3600.setContent(html_1ffd77060a262067d1d3509efebc7928);
+            
+        
+
+        marker_94efc9ae59261d6d00d1259906198b7f.bindPopup(popup_7cb6479a114d42a78ee7ba320dac3600)
+        ;
+
+        
+    
+    
+            var marker_7b5547735156af491482274740632f64 = L.marker(
+                [53.135278, 23.145556],
+                {}
+            ).addTo(map_7985e28a01cb19491ca1013a210307bc);
+        
+    
+        var popup_60c947b47fc0a1e127e3516a0ac4cab2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3802e643c965185eee4ebec3de4004e6 = $(`<div id="html_3802e643c965185eee4ebec3de4004e6" style="width: 100.0%; height: 100.0%;">Białystok,Kinga</div>`)[0];
+                popup_60c947b47fc0a1e127e3516a0ac4cab2.setContent(html_3802e643c965185eee4ebec3de4004e6);
+            
+        
+
+        marker_7b5547735156af491482274740632f64.bindPopup(popup_60c947b47fc0a1e127e3516a0ac4cab2)
+        ;
+
+        
+    
+</script>
+</html>
